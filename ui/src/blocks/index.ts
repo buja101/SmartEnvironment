@@ -211,6 +211,10 @@ export async function getToolBoxXml(extensions: Extension[]) {
     (await import('./pi/picamera/definitions')).default(Blockly.Blocks);
     (await import('./pi/picamera/generators')).default(Blockly.Python as any);
     toolBoxXml += fs.readFileSync(path.join(__dirname, '..', '..', 'src', 'blocks', 'pi', 'picamera', 'toolbox.xml'));
+
+    (await import('./pi/ir/definitions')).default(Blockly.Blocks);
+    (await import('./pi/ir/generators')).default(Blockly.Python as any);
+    toolBoxXml += fs.readFileSync(path.join(__dirname, '..', '..', 'src', 'blocks', 'pi', 'ir', 'toolbox.xml'));
   }
 
   toolBoxXml += '</xml>';
