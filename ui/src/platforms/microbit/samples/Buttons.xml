@@ -1,0 +1,56 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables></variables>
+  <block type="import_microbit" id="*aVp9vGo{c;+xkHe;#0i" x="-3" y="-14">
+    <next>
+      <block type="whileout" id="79,o5.GvzG-`n:t]@/EF">
+        <value name="cond">
+          <shadow type="textinline" id="-b2~{fp%DLdS.efP/l(|">
+            <field name="text">True</field>
+          </shadow>
+        </value>
+        <statement name="DO">
+          <block type="ifinline" id="+Tk.}`IqlZFvhlyN#~Oj">
+            <value name="iftext">
+              <shadow type="textinline" id="Sjx@wH-`aNiU@S^O77TE">
+                <field name="text">True</field>
+              </shadow>
+              <block type="buttonispressed" id="nI.eU1vD,}fj225*,`tP">
+                <field name="NAME">a</field>
+              </block>
+            </value>
+            <statement name="ifstate">
+              <block type="scrollnew" id="28TR{?}vd@7CBotJ+tCA">
+                <value name="displaytext">
+                  <shadow type="textinline" id="Y[W2{7~,t^GIpt0K1M-=">
+                    <field name="text">Button A Pressed</field>
+                  </shadow>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="ifinline" id="!,^%1Q!W]xBQaJr@A0Eo">
+                <value name="iftext">
+                  <shadow type="textinline" id="Sjx@wH-`aNiU@S^O77TE">
+                    <field name="text">True</field>
+                  </shadow>
+                  <block type="buttonispressed" id="5BNP?$(4L2`r.kqhj0ZW">
+                    <field name="NAME">b</field>
+                  </block>
+                </value>
+                <statement name="ifstate">
+                  <block type="scrollnew" id="?Wf.RW2ln0f9x(R-6[s2">
+                    <value name="displaytext">
+                      <shadow type="textinline" id="eJzMIy%[Y?Z`%.$bs$4-">
+                        <field name="text">Button B Pressed</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

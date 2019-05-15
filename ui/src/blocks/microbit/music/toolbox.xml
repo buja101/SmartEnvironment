@@ -1,0 +1,29 @@
+<category name="Music" colour="#E5BC16">
+    <label text="Music" web-class="myLabelStyle"></label>
+    <block type="musicimport"></block>
+    <block type="musicplay">
+    <value name="text">
+      <shadow type="textinline">
+        <field name="text"></field>
+      </shadow>
+    </value>
+    </block>
+    <block type="songs"></block>
+    <block type="musicpitch">
+    <value name="text">
+      <shadow type="textinline">
+        <field name="text"></field>
+      </shadow>
+    </value>
+    </block>
+    <block type="musictempo">
+    <value name="text">
+      <shadow type="textinline">
+        <field name="text"></field>
+      </shadow>
+    </value>
+    </block>
+    <block type="musicreset"></block>
+    <block type="musicstop"></block>
+    <block type="musicgettempo"></block>
+</category>

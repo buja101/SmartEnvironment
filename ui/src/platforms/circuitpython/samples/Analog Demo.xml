@@ -1,0 +1,75 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="cJ#ae7[|(*6*wV(E8;Z@">analogin</variable>
+  </variables>
+  <block type="import_time" id="-uoZO:L$!K;6LFj921;=" x="-582" y="-59">
+    <next>
+      <block type="import_board" id="%Q{.OEA{G1J60+BBe:;7">
+        <next>
+          <block type="import_analogio" id="jc}8^=/X?v60my}hXsxf">
+            <next>
+              <block type="analog_in" id="Z~Zg~FzSROKo|9aH_G.C">
+                <field name="pin" id="cJ#ae7[|(*6*wV(E8;Z@" variabletype="">analogin</field>
+                <value name="text">
+                  <shadow type="textinline" id="C:T()a-`(U_gBu/W4CS1">
+                    <field name="text">Board.A1</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="define" id="{.9f.wLuLtr_X{U$}kQ2">
+                    <value name="1">
+                      <shadow type="textinline" id="o2@GOZPY1X)OS$#ltOdx">
+                        <field name="text">getVoltage</field>
+                      </shadow>
+                    </value>
+                    <value name="2">
+                      <shadow type="textinline" id="OuO)Q^Uv+tO}#kdc/E+=">
+                        <field name="text">pin</field>
+                      </shadow>
+                    </value>
+                    <statement name="DO">
+                      <block type="return2" id="0Z!FkrbAJF)jNUNADlZ~">
+                        <value name="return">
+                          <shadow type="textinline" id="oGoJV-177Gu*}ZT0JSdn">
+                            <field name="text">(pin.value * 3.3) / 65536</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="whileout" id=",?LFLLgB(=NMn[8xv}Xw">
+                        <value name="cond">
+                          <shadow type="textinline" id="uneTrWpIk2]]B)l.1lKU">
+                            <field name="text">True</field>
+                          </shadow>
+                        </value>
+                        <statement name="DO">
+                          <block type="varprint" id="imE?c!DQvm]2FUSn{hJ,">
+                            <value name="var">
+                              <shadow type="textinline" id="-h6SpP3GjGzP~qUo*8mQ">
+                                <field name="text">"Analog Voltage: %f" % getVoltage(analogin)</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="sleepnew" id="mfeSwTy9+ba9Vqd`X%py">
+                                <value name="sleep">
+                                  <shadow type="textinline" id="bIg16:lZPbxj*Z!eH$}J">
+                                    <field name="text">0.1</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

@@ -1,0 +1,32 @@
+<category name="Sonic Pi" colour="#16E3E3" iconclass="blocklyTreeIconCustom sonic">
+  <block type="import_sonic"></block>
+  <block type="sampleson">
+  <value name="text">
+      <shadow type="textinline">
+        <field name="text">PROPHET</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="play">
+  <value name="text">
+      <shadow type="textinline">
+        <field name="text">60</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="sleep1">
+  <value name="text">
+      <shadow type="textinline">
+        <field name="text">1</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="synth">
+  <value name="text">
+      <shadow type="textinline">
+        <field name="text">SAW</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="liveloop"></block>
+</category> 

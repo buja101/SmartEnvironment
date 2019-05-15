@@ -1,0 +1,98 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="ZK2/@y#ZVL4_2vYyox[D">speaker_enable</variable>
+    <variable type="" id="_kLSwR.SN@^lJIIKK7Qi">pin</variable>
+    <variable type="" id="XN)UebXl2IL%BCcBf$ha">wav</variable>
+    <variable type="" id="`~PNof%9yc?6w~*xl^3(">data</variable>
+    <variable type="" id="LSSLD3EN]Kw2J%#k](a~">audio</variable>
+    <variable type="" id="m*$)Bc;/AUEmZT1qU%DC">var</variable>
+  </variables>
+  <block type="import_board" id="xkIw!~s}+$c5eoSc|l5=" x="2" y="22">
+    <next>
+      <block type="import_audio" id="O,7{Og]-wo[c.xfuL%z!">
+        <next>
+          <block type="import_digitalio" id="Nr50Xd;F.him_tPbt]Bi">
+            <next>
+              <block type="pinconfig" id="a+i8etmW1QJyft(XeyyM">
+                <field name="pin" id="ZK2/@y#ZVL4_2vYyox[D" variabletype="">speaker_enable</field>
+                <value name="text">
+                  <shadow type="textinline" id="[nguqfg=XS;Lk}-Oiu~k">
+                    <field name="text">board.SPEAKER_ENABLE</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="audio_enable" id="*vdt7sSylw[4up;(|oHu">
+                    <field name="pin" id="ZK2/@y#ZVL4_2vYyox[D" variabletype="">speaker_enable</field>
+                    <value name="text">
+                      <shadow type="textinline" id="tV|@l{32C[Y|G9Zc9L6i">
+                        <field name="text">value = True</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="audio_open" id="y2gaL8zT**-9Sj=7?_I=">
+                        <field name="data" id="`~PNof%9yc?6w~*xl^3(" variabletype="">data</field>
+                        <value name="text">
+                          <shadow type="textinline" id="2xSag=wxA,W-4oH^Tu+L">
+                            <field name="text">"rimshot.wav", "rb"</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="audio_wav" id="q0%Z.^ogh*`,t+mh67TC">
+                            <field name="pin" id="XN)UebXl2IL%BCcBf$ha" variabletype="">wav</field>
+                            <value name="text">
+                              <shadow type="textinline" id="[f|~bE}6~;!oGhA,6jXb">
+                                <field name="text">data</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="audio_conf" id="H6ibo@LX~wz33JM*[Qq4">
+                                <field name="pin" id="LSSLD3EN]Kw2J%#k](a~" variabletype="">audio</field>
+                                <value name="text">
+                                  <shadow type="textinline" id="1nD%[]2H/{=mTM4v`chX">
+                                    <field name="text">Board.A0</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="audio_play" id="hxs{fksx,HrNi-MV2Oof">
+                                    <field name="pin" id="LSSLD3EN]Kw2J%#k](a~" variabletype="">audio</field>
+                                    <value name="text">
+                                      <shadow type="textinline" id="@CBugQ4J3}vAA~$`y/hZ">
+                                        <field name="text"></field>
+                                      </shadow>
+                                      <block type="variables_get" id="[pJ_$C5y^,UfOH=[9a,M">
+                                        <field name="VAR" id="XN)UebXl2IL%BCcBf$ha" variabletype="">wav</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="whileout" id="a7m*/PNJ*n8,|AEfP/`7">
+                                        <value name="cond">
+                                          <shadow type="textinline" id="@sriA*HK4AA+W+Mtt4;~">
+                                            <field name="text">True</field>
+                                          </shadow>
+                                          <block type="audio_playing" id="1*IIfxN-prx59c`2@+3j">
+                                            <field name="pin" id="LSSLD3EN]Kw2J%#k](a~" variabletype="">audio</field>
+                                          </block>
+                                        </value>
+                                        <statement name="DO">
+                                          <block type="pass" id=")#yi2(b$Gat8Eu}Z8`[A"></block>
+                                        </statement>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

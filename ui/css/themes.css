@@ -1,0 +1,195 @@
+.theme-Dark nav {
+  background: #1F1F1F;
+}
+.theme-Dark .blocklySvg {
+  background-color: #363636 !important;
+}
+.theme-Dark .menu .button,
+.theme-Dark button {
+  color: white;
+}
+
+.theme-Dark .button { 
+  color: white;
+}
+
+.theme-Dark .brand {
+  color: white
+}
+
+.theme-Dark .blocklyToolboxDiv {
+  background-color: #006BBD;
+  color: white
+}
+
+
+.theme-Dark #toggleViewButton{
+  background-color: #006BBD;
+  color: white
+}
+
+
+
+.theme-Solarized nav {
+  background: #00262F;
+}
+
+.theme-Solarized .SelectModal__header  {
+  background: #00262F;
+}
+.theme-Solarized .blocklySvg {
+  background-color: #002F39 !important;
+}
+.theme-Solarized .menu .button,
+.theme-Solarized button {
+  color: white;
+}
+
+.theme-Solarized .button {
+  color: white;
+}
+
+.theme-Solarized body{
+  background-color: #002F39 !important;
+}
+
+.theme-Solarized .brand {
+  color: white
+}
+
+.theme-Solarized .blocklyToolboxDiv {
+  background-color: #00262F !important;
+  color: white
+}
+
+
+.theme-Solarized #toggleViewButton{
+  background-color: #053844;
+  color: white
+}
+
+
+
+
+/* Default Theme */
+
+.theme-Default nav{
+  background: #396afc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.theme-Default .SelectModal__header{
+  background: #396afc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+
+/* Tangerine Theme */
+
+.theme-Tangerine nav{
+  background: #fc4a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.theme-Tangerine .SelectModal__header{
+  background: #fc4a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Vivid Theme */
+
+.theme-Vivid nav{
+  background: #FC466B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.theme-Vivid .SelectModal__header{
+  background: #FC466B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+/* Purple Theme */
+
+.theme-DarkRed nav{
+  background: #070000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.theme-DarkRed .SelectModal__header{
+  background: #070000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+
+/* Celestial Theme */
+
+.theme-Celestial nav{
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+
+.theme-Celestial .SelectModal__header{
+  background: #C33764;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+
+
+
+/* Pacific Theme */
+
+.theme-Pacific nav{
+  background: #34e89e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+}
+
+.theme-Pacific .SelectModal__header{
+  background: #34e89e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
+}
+

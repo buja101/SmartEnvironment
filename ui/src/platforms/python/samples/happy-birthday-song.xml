@@ -1,0 +1,95 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="8,1{=OaEr%5,*~*US^SU">name</variable>
+    <variable type="" id="dQ}|R^l|M6Wa]8Oerlp%">i</variable>
+    <variable type="" id="L6iv)P]r?%MWuvItC{v3">j</variable>
+  </variables>
+  <block type="import_time" id="g1mYY8Uu|R|b.~`Wethw" x="41" y="28">
+    <next>
+      <block type="variables_set" id="BjQ$@2~a-k}Z(WbE!;~4">
+        <field name="VAR" id="8,1{=OaEr%5,*~*US^SU" variabletype="">name</field>
+        <field name="NAME">=</field>
+        <value name="varset">
+          <shadow type="textinline" id="RVel5(J?P$gu3#8,{j^A">
+            <field name="text">input("What is your name?")</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="webfor" id="q#!bh1xu_ltDz)J6KD|W">
+            <value name="letter">
+              <shadow type="textinline" id=";z!5xG,Ic9KV_$@xC4:b">
+                <field name="text">i</field>
+              </shadow>
+            </value>
+            <value name="no">
+              <shadow type="textinline" id="Fa(1awdiP^eA{;tq9%ZU">
+                <field name="text">2</field>
+              </shadow>
+            </value>
+            <statement name="DO">
+              <block type="webprintnew" id="G_]ms`]u=]a!bS5i^Hou">
+                <value name="text">
+                  <shadow type="textinline" id="E:9[_qjiG!Q`o:7%Q3eA">
+                    <field name="text">Happy Birthday to you</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="websleepnew" id="~_=T4V~A_jc]RjfRZ6)+">
+                    <value name="sleep">
+                      <shadow type="textinline" id="J5lV(n)EGgKSCJSx|4BH">
+                        <field name="text">1</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="webvarprint" id="sL8wRS4Ygp:snkuEyf}U">
+                <value name="var">
+                  <shadow type="textinline" id="?SW8/-l,703E7?Zxfk6b">
+                    <field name="text">Variable</field>
+                  </shadow>
+                  <block type="operators2" id="T{K%cRA[1nZgZGdHx02b">
+                    <field name="operators">+</field>
+                    <value name="first">
+                      <shadow type="textinline" id="C~J%BB+{`+v5--ki1O#F">
+                        <field name="text">"Happy Birthday dear "</field>
+                      </shadow>
+                    </value>
+                    <value name="last">
+                      <shadow type="textinline" id="3fst#nyPu|@B~_J/GbMs">
+                        <field name="text">True</field>
+                      </shadow>
+                      <block type="variables_get" id="7Q:6i$P9]m8~Wnx:isw_">
+                        <field name="VAR" id="8,1{=OaEr%5,*~*US^SU" variabletype="">name</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="websleepnew" id="KvPF$a{$vq_kYsF1-6#!">
+                    <value name="sleep">
+                      <shadow type="textinline" id="TM;^9aXhOBl2xvu~btN0">
+                        <field name="text">1</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="webprintnew" id="-Tlk~@n6SlH+Bc{pfbSN">
+                        <value name="text">
+                          <shadow type="textinline" id=":m^g*,j.Nzcm.hpR?BPY">
+                            <field name="text">Happy Birthday to you</field>
+                          </shadow>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

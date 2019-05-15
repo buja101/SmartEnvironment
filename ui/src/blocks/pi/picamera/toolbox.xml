@@ -1,0 +1,112 @@
+<category name="PiCamera" colour="#1B173C" iconclass="blocklyTreeIconCustom camera">
+
+    <label text="PiCamera" web-class="myLabelStyle"></label>
+    <block type="import_picamera"></block>
+    <block type="create_camera"></block>
+    <block type="setrotation">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="start_preview">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="stop_preview">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="capture_savepath">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="capture_savepathmore">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="start_recording">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="wait_recording">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="stop_recording">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="set_resolution">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+        <value name="text1">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="set_framerate">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="set_textsize">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="show_text">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="set_brightness">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="set_contrast">
+        <value name="text">
+            <shadow type="textinline">
+                <field name="text"></field>
+            </shadow>
+        </value>
+    </block>
+    <block type="image_effect"></block>
+    <block type="awb_mode"></block>
+    <block type="exposure_mode"></block>
+</category>  

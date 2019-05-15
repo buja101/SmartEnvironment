@@ -1,0 +1,118 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="f)d)RvFB)?JhcZ?cp57x">led</variable>
+    <variable type="" id="jMa({1uf.g%V!N8wsEQ[">button</variable>
+    <variable type="" id="nDs40..(nu;MzRMip2Q/">pin</variable>
+  </variables>
+  <block type="import_time" id="KK`kxk7[ATC$.#.:XBik" x="-214" y="-130"></block>
+  <block type="import_board" id="y}O4if)!uVk%2BR#1p+." x="-579" y="-57">
+    <next>
+      <block type="import_digitalio" id="9m^([S@g2yW%*VE`Q3q4">
+        <next>
+          <block type="pinconfig" id=";x+RB:vz?sTyaGOnZ%h1">
+            <field name="pin" id="f)d)RvFB)?JhcZ?cp57x" variabletype="">led</field>
+            <value name="text">
+              <shadow type="textinline" id="Q`);MXUicAa,Y%R$[,[o">
+                <field name="text">board.D13</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="pindirection" id="ohX}#-4w]?F3nkIk~4^j">
+                <field name="pin" id="f)d)RvFB)?JhcZ?cp57x" variabletype="">led</field>
+                <value name="text">
+                  <shadow type="textinline" id="2?IFJAdVKoJYE.=*EBk1">
+                    <field name="text">Direction.OUTPUT</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="pinconfig" id="N3yo:3s;LlFdW#Fq$(M;">
+                    <field name="pin" id="jMa({1uf.g%V!N8wsEQ[" variabletype="">button</field>
+                    <value name="text">
+                      <shadow type="textinline" id="%O.R;/)GECNzls(8,XG=">
+                        <field name="text">board.BUTTON_A</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="pindirection" id="xIwv}/P=D9rdurN{_})O">
+                        <field name="pin" id="jMa({1uf.g%V!N8wsEQ[" variabletype="">button</field>
+                        <value name="text">
+                          <shadow type="textinline" id="u@%|{yp3qP~8`V(,96)1">
+                            <field name="text">Direction.INPUT</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="pull" id="o|ZtG$`Gx-+Pf:pdR7!}">
+                            <field name="pin" id="jMa({1uf.g%V!N8wsEQ[" variabletype="">button</field>
+                            <value name="text">
+                              <shadow type="textinline" id="?/KCMyAjg~o7e$FLP1*G">
+                                <field name="text">Pull.DOWN</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="whileout" id="49+;3G0{e7B5rk%*KTcU">
+                                <value name="cond">
+                                  <shadow type="textinline" id="uGIkpw8(79_Ds,xJz%1K">
+                                    <field name="text">True</field>
+                                  </shadow>
+                                </value>
+                                <statement name="DO">
+                                  <block type="ifinline" id="EX^J5k9%(jqUh][;xNOO">
+                                    <value name="iftext">
+                                      <shadow type="textinline" id="z=KN@bW[xTgPH6=m/*?X">
+                                        <field name="text">True</field>
+                                      </shadow>
+                                      <block type="valuein" id="^Gj.)4g?74[QA/cMXO=7">
+                                        <field name="pin" id="jMa({1uf.g%V!N8wsEQ[" variabletype="">button</field>
+                                      </block>
+                                    </value>
+                                    <statement name="ifstate">
+                                      <block type="pinvalue" id="FE?@IwVPD7qBekWZ1|xZ">
+                                        <field name="pin" id="f)d)RvFB)?JhcZ?cp57x" variabletype="">led</field>
+                                        <value name="text">
+                                          <shadow type="textinline" id="2BHlowl9oiuMVg[M;xZa">
+                                            <field name="text">True</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </statement>
+                                    <next>
+                                      <block type="else" id="7WD*k]:?HQKw)~V#|#47">
+                                        <statement name="DO">
+                                          <block type="pinvalue" id="*2n9ap1~od[v$_i6b(|8">
+                                            <field name="pin" id="f)d)RvFB)?JhcZ?cp57x" variabletype="">led</field>
+                                            <value name="text">
+                                              <shadow type="textinline" id="+7B4n{vT=O]~W(t~0W,g">
+                                                <field name="text">True</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="sleepnew" id="NQ@`R9Ds;lcdv.dv2dOm">
+                                            <value name="sleep">
+                                              <shadow type="textinline" id="_YCH25Q7_AN@y#`yVzUb">
+                                                <field name="text">0.01</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

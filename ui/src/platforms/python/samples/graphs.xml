@@ -1,0 +1,104 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="@AcBIc*uRTPwVqqg~@m=">bar_chart</variable>
+    <variable type="" id="wu(GJLAZoiS@Do`O#]%f">name</variable>
+  </variables>
+  <block type="import_pygal" id="{NO^fC2sVt[_)mekhctg" x="41" y="11">
+    <next>
+      <block type="chart_type" id="y@F%nK6?fTkJV]@~2]T)">
+        <field name="name" id="@AcBIc*uRTPwVqqg~@m=" variabletype="">bar_chart</field>
+        <field name="chartTypes">Bar</field>
+        <value name="text">
+          <shadow type="textinline" id="u.!o3~0`2$4O6Y5Tr5[s">
+            <field name="text"></field>
+          </shadow>
+        </value>
+        <next>
+          <block type="chart_title" id="K]S(a8Hgc8en9}Sv;kT^">
+            <field name="name" id="@AcBIc*uRTPwVqqg~@m=" variabletype="">bar_chart</field>
+            <value name="text">
+              <shadow type="stringinline" id="%9*zOx0X/dyek0lZjVq=">
+                <field name="text">Browser Usage Evolution (in %)</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="chart_xlabels" id="E{:cTN}/r9V!c=m:]~ek">
+                <field name="name" id="@AcBIc*uRTPwVqqg~@m=" variabletype="">bar_chart</field>
+                <value name="text">
+                  <shadow type="textinline" id=".zI9I9Fm`ewDd{N5/]MX">
+                    <field name="text">map(str, range(2002, 2013))</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="chart_add" id="iqR(Q_DZ8_AU|wxVw[WQ">
+                    <field name="name" id="@AcBIc*uRTPwVqqg~@m=" variabletype="">bar_chart</field>
+                    <value name="text">
+                      <shadow type="stringinline" id="(s#pN75r#8FQDUR4%Boh">
+                        <field name="text">Firefox</field>
+                      </shadow>
+                    </value>
+                    <value name="text1">
+                      <shadow type="textinline" id="!.GDI]mz}Dll(hX#_waK">
+                        <field name="text">None, None, 0, 16.6,   25,   31, 36.4, 45.5, 46.3, 42.8, 37.1</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="chart_add" id="j`]B5C4Wu}ES;.WRu.Ke">
+                        <field name="name" id="@AcBIc*uRTPwVqqg~@m=" variabletype="">bar_chart</field>
+                        <value name="text">
+                          <shadow type="stringinline" id="ke=+/6Fyc[[@;NnLec*;">
+                            <field name="text">Chrome</field>
+                          </shadow>
+                        </value>
+                        <value name="text1">
+                          <shadow type="textinline" id="L,dB?:caqBnmdUM`0reu">
+                            <field name="text">None, None, None, None, None, None,    0,  3.9, 10.8, 23.8, 35.3</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="chart_add" id="wC[xBqSV?EA.b2[SK{!Z">
+                            <field name="name" id="@AcBIc*uRTPwVqqg~@m=" variabletype="">bar_chart</field>
+                            <value name="text">
+                              <shadow type="stringinline" id="b4[z+6DLW|M!Awe|~8h.">
+                                <field name="text">IE</field>
+                              </shadow>
+                            </value>
+                            <value name="text1">
+                              <shadow type="textinline" id="JWZdum{Qx{1nf).W~m2*">
+                                <field name="text">85.8, 84.6, 84.7, 74.5,   66, 58.6, 54.7, 44.8, 36.2, 26.6, 20.1</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="chart_add" id="o8qr}{5b`#4D]gYeit;G">
+                                <field name="name" id="@AcBIc*uRTPwVqqg~@m=" variabletype="">bar_chart</field>
+                                <value name="text">
+                                  <shadow type="stringinline" id="_@0xt_11Youn-4~kAfx`">
+                                    <field name="text">Others</field>
+                                  </shadow>
+                                </value>
+                                <value name="text1">
+                                  <shadow type="textinline" id="a3scA(mcI3hJ3L^ubpa?">
+                                    <field name="text">14.2, 15.4, 15.3,  8.9,    9, 10.4,  8.9,  5.8,  6.7,  6.8,  7.5</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="chart_render" id="OVBbCkEa,c9s+Ii_;+1I">
+                                    <field name="name" id="@AcBIc*uRTPwVqqg~@m=" variabletype="">bar_chart</field>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

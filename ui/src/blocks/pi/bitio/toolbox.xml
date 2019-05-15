@@ -1,0 +1,32 @@
+<category name="BitIO" colour="#C227E2" iconclass="blocklyTreeIconCustom bitio">
+  <block type="importmb"></block>
+  <block type="displayscrolltext">
+    <value name="text">
+      <shadow type="textinline">
+        <field name="text"></field>
+      </shadow>
+    </value>
+  </block>
+  <block type="displayscrollvar">
+    <value name="text">
+      <shadow type="textinline">
+        <field name="text"></field>
+      </shadow>
+    </value>
+  </block>
+  <block type="microsleep">
+    <value name="text">
+      <shadow type="textinline">
+        <field name="text"></field>
+      </shadow>
+    </value>
+  </block>
+  <block type="displayshow">
+    <value name="text">
+      <shadow type="textinline">
+        <field name="text"></field>
+      </shadow>
+    </value>
+  </block>
+  <block type="displayclear"></block>
+</category>  

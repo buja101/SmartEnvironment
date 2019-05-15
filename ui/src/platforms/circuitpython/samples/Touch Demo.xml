@@ -1,0 +1,125 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="OxN9wqO7Bk]W.o+x0!ha">touch1</variable>
+    <variable type="" id="cO?eFqtt)OGR=Kb=-1YR">touch2</variable>
+    <variable type="" id="9%H-Nei]4hzM(!NG?[[B">touch3</variable>
+  </variables>
+  <block type="import_board" id="(`)eKzC7At``*|t$[;R(" x="-576" y="-117"></block>
+  <block type="import_time" id="E8QH15w]k9xADp;NhTOj" x="-961" y="-31">
+    <next>
+      <block type="import_touchio" id="%6B#c*dmr00vDC4eZ9sJ">
+        <next>
+          <block type="touch_conf" id="z;F!t+)EtB0`p]P7kbD)">
+            <field name="pin" id="OxN9wqO7Bk]W.o+x0!ha" variabletype="">touch1</field>
+            <value name="text1">
+              <shadow type="textinline" id="=@k8w^YN)ZEa(euRC^Q(">
+                <field name="text">board.A1</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="touch_conf" id="7C+:xinj};B:Tg;%rEB#">
+                <field name="pin" id="cO?eFqtt)OGR=Kb=-1YR" variabletype="">touch2</field>
+                <value name="text1">
+                  <shadow type="textinline" id="x.o5GE6uVpkKJ)r3~F;d">
+                    <field name="text">board.A2</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="touch_conf" id="|i]H8?YVD7/.RIkqpAh4">
+                    <field name="pin" id="9%H-Nei]4hzM(!NG?[[B" variabletype="">touch3</field>
+                    <value name="text1">
+                      <shadow type="textinline" id="4{nExv~b$Ls{8sDN^%sk">
+                        <field name="text">board.A3</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="whileout" id="bnl*yoOIJk-AWIzZ?eKv">
+                        <value name="cond">
+                          <shadow type="textinline" id="YDFU9Bz9=JLi0oV{-D.e">
+                            <field name="text">True</field>
+                          </shadow>
+                        </value>
+                        <statement name="DO">
+                          <block type="ifinline" id="/#M;U!,-?S*3)s$c)eUS">
+                            <value name="iftext">
+                              <shadow type="textinline" id="q}sZwmU*k.}$7Q%Uqd5R">
+                                <field name="text">True</field>
+                              </shadow>
+                              <block type="touch_valinline" id="mAo:kDj}SM=`zxf-EU6k">
+                                <field name="pin" id="OxN9wqO7Bk]W.o+x0!ha" variabletype="">touch1</field>
+                              </block>
+                            </value>
+                            <statement name="ifstate">
+                              <block type="printnew" id="cpTWN=uEPN*;OSd7nFXM">
+                                <value name="text">
+                                  <shadow type="textinline" id="!2Wdje`3u0%8`_14,~$e">
+                                    <field name="text">A1 Touched!</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="ifinline" id="3BUY#V:=RWoPu@cQ36}$">
+                                <value name="iftext">
+                                  <shadow type="textinline" id="q}sZwmU*k.}$7Q%Uqd5R">
+                                    <field name="text">True</field>
+                                  </shadow>
+                                  <block type="touch_valinline" id="gd#3R5#MhEZ3[$$^A*}{">
+                                    <field name="pin" id="cO?eFqtt)OGR=Kb=-1YR" variabletype="">touch2</field>
+                                  </block>
+                                </value>
+                                <statement name="ifstate">
+                                  <block type="printnew" id="+kC}*iXA8M7MY2$u-gk+">
+                                    <value name="text">
+                                      <shadow type="textinline" id="KImNcnQr2S52^;o..T2[">
+                                        <field name="text">A2 Touched!</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </statement>
+                                <next>
+                                  <block type="ifinline" id="od7vO0JJ|S$raMAbD0=Z">
+                                    <value name="iftext">
+                                      <shadow type="textinline" id="q}sZwmU*k.}$7Q%Uqd5R">
+                                        <field name="text">True</field>
+                                      </shadow>
+                                      <block type="touch_valinline" id="(r;{9CtcBsriKtznGY%H">
+                                        <field name="pin" id="9%H-Nei]4hzM(!NG?[[B" variabletype="">touch3</field>
+                                      </block>
+                                    </value>
+                                    <statement name="ifstate">
+                                      <block type="printnew" id="(aqni7w(|o7VrT~Pf;U4">
+                                        <value name="text">
+                                          <shadow type="textinline" id="/{rDM]%(dbhH|Sg[E?^j">
+                                            <field name="text">A3 Touched!</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </statement>
+                                    <next>
+                                      <block type="sleepnew" id="aOk9g_S63s!1,;ART|WI">
+                                        <value name="sleep">
+                                          <shadow type="textinline" id="a^5E0Re]]|-o2@_`=R[^">
+                                            <field name="text">0.01</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

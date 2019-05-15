@@ -1,0 +1,120 @@
+<category name="Pimoroni" colour="#000000" iconclass="blocklyTreeIconCustom pimoroni">
+  <category name="Explorer Hat" colour="#000000">
+    <block type="ehimport"></block>
+    <block type="ehtouch">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text"></field>
+        </shadow>
+      </value>
+    </block>
+    <block type="ehinput">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text"></field>
+        </shadow>
+      </value>
+    </block>
+    <block type="ehoutput">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text"></field>
+        </shadow>
+      </value>
+    </block>
+    <block type="ehlights">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text"></field>
+        </shadow>
+      </value>
+    </block>
+    <block type="ehanalog">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text"></field>
+        </shadow>
+      </value>
+    </block>
+    <block type="ehmotor">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text"></field>
+        </shadow>
+      </value>
+    </block>
+  </category>
+  <category name="Blinkt!" colour="90">
+    <block type="blinktimport"></block>
+    <block type="blinktsetpixel">
+    <value name="text">
+        <shadow type="textinline">
+          <field name="text">pixelno</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">r</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">g</field>
+        </shadow>
+      </value>
+      <value name="text3">
+        <shadow type="textinline">
+          <field name="text">b</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="blinktshow"></block>
+    <block type="blinktsetbrightness">
+    <value name="text">
+        <shadow type="textinline">
+          <field name="text">number</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="blinktsetall">
+    <value name="text">
+        <shadow type="textinline">
+          <field name="text">r</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">g</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">b</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="blinktsetallbright">
+    <value name="text">
+        <shadow type="textinline">
+          <field name="text">r</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">g</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">b</field>
+        </shadow>
+      </value>
+      <value name="text3">
+        <shadow type="textinline">
+          <field name="text">brightness</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="blinktclear"></block>
+  </category>
+</category>

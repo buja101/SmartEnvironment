@@ -1,0 +1,46 @@
+<category name="Pins" colour="#E51616">
+<label text="Pins" web-class="myLabelStyle"></label>
+  <block type="pintouchednew">
+  <value name="text">
+      <shadow type="textinline">
+        <field name="text">0</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="analogreadnew">
+  <value name="text">
+      <shadow type="textinline">
+        <field name="text">0</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="digitalreadnew">
+  <value name="text">
+      <shadow type="textinline">
+        <field name="text">0</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="writeanalognew">
+  <value name="text">
+      <shadow type="textinline">
+        <field name="text">0</field>
+      </shadow>
+    </value>
+  <value name="text1">
+      <shadow type="sliderinline">
+      </shadow>
+    </value>
+  </block>
+  <block type="writedigitalnew">
+  <value name="text">
+      <shadow type="textinline">
+        <field name="text">0</field>
+      </shadow>
+    </value>
+  <value name="text1">
+      <shadow type="sliderinline">
+      </shadow>
+    </value>
+  </block>
+</category>

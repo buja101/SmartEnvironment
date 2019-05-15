@@ -1,0 +1,266 @@
+<category name="Minecraft" colour="#19E32E" iconclass="blocklyTreeIconCustom minecraft">
+  <category name="General" colour="#7D21E1">
+    <block type="mcimport"></block>
+    <block type="import_block"></block>
+    <block type="mcpiblockas"></block>
+    <block type="mccreate"></block>
+  </category>
+  <category name="Commands" colour="#19E32E">
+    <block type="mcpost">
+      <value name="text">
+        <shadow type="stringinline">
+          <field name="text">Hello World</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="mcpos"></block>
+    <block type="setpos">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="campos">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="getblock">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="cameraset"></block>
+    <block type="setblock">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+      <value name="text3">
+        <shadow type="textinline">
+          <field name="text">id</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="mcvar"></block>
+    <block type="mcblocks">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+      <value name="text3">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+      <value name="text4">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+      <value name="text5">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+      <value name="text6">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+      <value name="text7">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+      <value name="text8">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="build">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="printwall"></block>
+    <block type="mctext2">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+      <value name="text3">
+        <shadow type="textinline">
+          <field name="text">id</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="mctext5">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+      <value name="text3">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+      <value name="text4">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="mcblocks8">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+      <value name="text3">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+      <value name="text4">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+      <value name="text5">
+        <shadow type="textinline">
+          <field name="text">0</field>
+        </shadow>
+      </value>
+      <value name="text6">
+        <shadow type="textinline">
+          <field name="text">0</field> 
+        </shadow>
+      </value>
+      <value name="text7">
+        <shadow type="textinline"> 
+          <field name="text">0</field>
+        </shadow>
+      </value>
+    </block>
+    <block type="getdist">
+      <value name="text">
+        <shadow type="textinline">
+          <field name="text">x</field>
+        </shadow>
+      </value>
+      <value name="text1">
+        <shadow type="textinline">
+          <field name="text">y</field>
+        </shadow>
+      </value>
+      <value name="text2">
+        <shadow type="textinline">
+          <field name="text">z</field>
+        </shadow>
+      </value>
+    </block>
+  </category>
+</category>

@@ -1,0 +1,39 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables></variables>
+  <block type="import_microbit" id="FMb[g7WuZsg4(O2g$U=M" x="37" y="46">
+    <next>
+      <block type="whileout" id="(MsY-V,cXKWMEOL8=xK7">
+        <value name="cond">
+          <shadow type="textinline" id="=Ivc0_?P+fx{T85TC!jC">
+            <field name="text">True</field>
+          </shadow>
+        </value>
+        <statement name="DO">
+          <block type="ifinline" id="25dd%(AD4!,Fj8RY1$Ae">
+            <value name="iftext">
+              <shadow type="textinline" id="shCqs[y/nl#WKxxR+omC">
+                <field name="text">True</field>
+              </shadow>
+              <block type="accwasgesturenew" id="-o!WX;qO4*4:=2V/^7ks">
+                <value name="text">
+                  <shadow type="textinline" id="/kCFN=I8=`Iv]q9((~jk">
+                    <field name="text">'shake'</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+            <statement name="ifstate">
+              <block type="scrollnew" id="-R]O~k0oWKXj#O;[6j~M">
+                <value name="displaytext">
+                  <shadow type="textinline" id="8`/G*p:TGa!xJg6~P!F]">
+                    <field name="text">Shake Detected!</field>
+                  </shadow>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

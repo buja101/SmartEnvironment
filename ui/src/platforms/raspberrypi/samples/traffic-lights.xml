@@ -1,0 +1,179 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="].X`n)^b#Q=XxUdN$B2Z">red</variable>
+    <variable type="" id="[w~/mur!*W~//v)/KdK*">yellow</variable>
+    <variable type="" id="}n7Ey;$,Y5oy9Ql2x2)m">green</variable>
+    <variable type="" id="pe@m|unqCr`2@2a5UPk8">i</variable>
+    <variable type="" id="-RhKrVW4};%aroW%uM=k">j</variable>
+    <variable type="" id=":GA~j^EmThTo39BzBl[#">led</variable>
+  </variables>
+  <block type="importgpiozero" id="X5zgFE7^v4S]i8~(_qrj" x="115" y="42">
+    <next>
+      <block type="import_time" id="ORkj[1!A~NQOgGxv-fuU">
+        <next>
+          <block type="ledset" id="7,g~a$--TLoUcGtTAsr;">
+            <field name="led" id="].X`n)^b#Q=XxUdN$B2Z" variabletype="">red</field>
+            <value name="text">
+              <shadow type="textinline" id="Sh[M-koXe)zxoyC}V5St">
+                <field name="text">18</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="ledset" id="Wri60sj4M7Sn9C:emcr.">
+                <field name="led" id="[w~/mur!*W~//v)/KdK*" variabletype="">yellow</field>
+                <value name="text">
+                  <shadow type="textinline" id="VKJnk0b?I1rc40R]$PvL">
+                    <field name="text">24</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="ledset" id="0Yz[5/:^/W1op2t?TZ9#">
+                    <field name="led" id="}n7Ey;$,Y5oy9Ql2x2)m" variabletype="">green</field>
+                    <value name="text">
+                      <shadow type="textinline" id="/,KK1uWt22R#fjzLyaOZ">
+                        <field name="text">12</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="whileout" id="9zy1lk,%!6HV+BlL:42@">
+                        <value name="cond">
+                          <shadow type="textinline" id="0UUCQ{BIzNWtbioGaiOC">
+                            <field name="text">True</field>
+                          </shadow>
+                        </value>
+                        <statement name="DO">
+                          <block type="ledaction" id="Z3ZxOi=gO@ES*l/1;zH8">
+                            <field name="led" id="].X`n)^b#Q=XxUdN$B2Z" variabletype="">red</field>
+                            <field name="action">on</field>
+                            <value name="text">
+                              <shadow type="textinline" id="@eQ@ZA8wKz-O2a]tHx]n">
+                                <field name="text"></field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="sleepnew" id="Joc#^t-b{P+.JGz3f.}W">
+                                <value name="sleep">
+                                  <shadow type="textinline" id="!6/Gc#iJa#*}=0zTCtG2">
+                                    <field name="text">3</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="ledaction" id="]a;db^0kojiWJZ[9dKYw">
+                                    <field name="led" id="[w~/mur!*W~//v)/KdK*" variabletype="">yellow</field>
+                                    <field name="action">on</field>
+                                    <value name="text">
+                                      <shadow type="textinline" id="U*5Y,UgICGY$]+FXgegb">
+                                        <field name="text"></field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="sleepnew" id="WEML-kqS!WG,)~]()F9Y">
+                                        <value name="sleep">
+                                          <shadow type="textinline" id="-VP,DX.Mi{Vryz/*q;DN">
+                                            <field name="text">1</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="ledaction" id="]gtn)sUjTGajX?8F{nNZ">
+                                            <field name="led" id="].X`n)^b#Q=XxUdN$B2Z" variabletype="">red</field>
+                                            <field name="action">off</field>
+                                            <value name="text">
+                                              <shadow type="textinline" id="*v!WUnSVU@Bs^r@P}?ph">
+                                                <field name="text"></field>
+                                              </shadow>
+                                            </value>
+                                            <next>
+                                              <block type="ledaction" id="X4l7kRX%`)%(b#$_+YyC">
+                                                <field name="led" id="[w~/mur!*W~//v)/KdK*" variabletype="">yellow</field>
+                                                <field name="action">off</field>
+                                                <value name="text">
+                                                  <shadow type="textinline" id=")SOoQ,?7N|TRH{KCyyO)">
+                                                    <field name="text"></field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="ledaction" id="#pFJe2Ix=|Vn8E-9szUe">
+                                                    <field name="led" id="}n7Ey;$,Y5oy9Ql2x2)m" variabletype="">green</field>
+                                                    <field name="action">on</field>
+                                                    <value name="text">
+                                                      <shadow type="textinline" id="evpP8D~j|JQXz[4/RB)e">
+                                                        <field name="text"></field>
+                                                      </shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="sleepnew" id="5FG?wEGyjhB2?K*R!!x{">
+                                                        <value name="sleep">
+                                                          <shadow type="textinline" id="us)9,0oKoXnqwMobBW1B">
+                                                            <field name="text">3</field>
+                                                          </shadow>
+                                                        </value>
+                                                        <next>
+                                                          <block type="ledaction" id="@a{~bw6WzrEQ|JwZG3qx">
+                                                            <field name="led" id="}n7Ey;$,Y5oy9Ql2x2)m" variabletype="">green</field>
+                                                            <field name="action">off</field>
+                                                            <value name="text">
+                                                              <shadow type="textinline" id="vN9Y^~~efBFV@j%ws]G|">
+                                                                <field name="text"></field>
+                                                              </shadow>
+                                                            </value>
+                                                            <next>
+                                                              <block type="ledaction" id="2u}0a*Rqeio#Uf6?n5sZ">
+                                                                <field name="led" id="[w~/mur!*W~//v)/KdK*" variabletype="">yellow</field>
+                                                                <field name="action">on</field>
+                                                                <value name="text">
+                                                                  <shadow type="textinline" id="O{ULXd7^Eaav.94404?q">
+                                                                    <field name="text"></field>
+                                                                  </shadow>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="sleepnew" id="2x#s5cwfksw%)]YZI@u2">
+                                                                    <value name="sleep">
+                                                                      <shadow type="textinline" id="%dR05Aaw=rg5!rlT60rK">
+                                                                        <field name="text">1</field>
+                                                                      </shadow>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="ledaction" id="J8mr-KLb4v{mL%_%_lc!">
+                                                                        <field name="led" id="[w~/mur!*W~//v)/KdK*" variabletype="">yellow</field>
+                                                                        <field name="action">off</field>
+                                                                        <value name="text">
+                                                                          <shadow type="textinline" id=",}+c#EbN7Kh(R%2tlT|+">
+                                                                            <field name="text"></field>
+                                                                          </shadow>
+                                                                        </value>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

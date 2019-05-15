@@ -1,0 +1,163 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables>
+    <variable type="" id="5[.[kw:dTKk*,}$TCIKa">np</variable>
+  </variables>
+  <block type="import_board" id="G[p}MhV_-d5c?Z-A2M_D" x="8" y="-46">
+    <next>
+      <block type="import_time" id="tQ./ZZbO2OwLq:B1?RtY">
+        <next>
+          <block type="importneo" id="4hiOTZ63@0X!t;8-tW~d">
+            <next>
+              <block type="setneo" id="|^ywxUCpkSk-/BC2kc@V">
+                <field name="NAME" id="5[.[kw:dTKk*,}$TCIKa" variabletype="">np</field>
+                <value name="text">
+                  <shadow type="textinline" id="];AvMUcNT9Op9O7k]GE+">
+                    <field name="text">board.NEOPIXEL, 10, brightness=.2</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="whileout" id="R$s1(bNLCiZw$!gT4+I@">
+                    <value name="cond">
+                      <shadow type="textinline" id="ELO)BW@2p_F*dcvdLSsT">
+                        <field name="text">True</field>
+                      </shadow>
+                    </value>
+                    <statement name="DO">
+                      <block type="for" id="b.|Sl@gg~#!_;o9i;w!P">
+                        <value name="letter">
+                          <shadow type="textinline" id="6@BU1U-bS[e[(lD5G_XS">
+                            <field name="text">r</field>
+                          </shadow>
+                        </value>
+                        <value name="no">
+                          <shadow type="textinline" id="=[)lDvh%[G2cA_2my0%T">
+                            <field name="text">10</field>
+                          </shadow>
+                        </value>
+                        <statement name="DO">
+                          <block type="neovarnew" id="He34xmo86BW{sAn.*)1F">
+                            <field name="NAME" id="5[.[kw:dTKk*,}$TCIKa" variabletype="">np</field>
+                            <value name="text">
+                              <shadow type="textinline" id=".l]1pv%I]w*dO;xND](!">
+                                <field name="text">r</field>
+                              </shadow>
+                            </value>
+                            <value name="text1">
+                              <shadow type="textinline" id="O,!m}@RDeuf#h,ZO.dhe">
+                                <field name="text">255, 0, 0</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="neoshow" id="UtZ?nQcQE%3Z/v%:o.-%">
+                                <field name="NAME" id="5[.[kw:dTKk*,}$TCIKa" variabletype="">np</field>
+                                <next>
+                                  <block type="sleepnew" id="_2?Wl7E9;/6._*ULhq(.">
+                                    <value name="sleep">
+                                      <shadow type="textinline" id="uv4:{02)aNBCM?#P2``;">
+                                        <field name="text">0.05</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="for" id="4`~Lx`zE0V1a*BaXM_$=">
+                            <value name="letter">
+                              <shadow type="textinline" id="`7KUJ}0(8.BY`)wD_mT@">
+                                <field name="text">g</field>
+                              </shadow>
+                            </value>
+                            <value name="no">
+                              <shadow type="textinline" id="n(H.Ab(EGnr#Vtu+Pdi^">
+                                <field name="text">10</field>
+                              </shadow>
+                            </value>
+                            <statement name="DO">
+                              <block type="neovarnew" id="|IOQw;}%PdiZpvai1#]?">
+                                <field name="NAME" id="5[.[kw:dTKk*,}$TCIKa" variabletype="">np</field>
+                                <value name="text">
+                                  <shadow type="textinline" id="o:BH0{d_pWq~,0rdyaAm">
+                                    <field name="text">g</field>
+                                  </shadow>
+                                </value>
+                                <value name="text1">
+                                  <shadow type="textinline" id="n3QB-4Iz:c,@l2?X7Frl">
+                                    <field name="text">0, 255, 0</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="neoshow" id="ez|f)1,$efj@4a9%nQuU">
+                                    <field name="NAME" id="5[.[kw:dTKk*,}$TCIKa" variabletype="">np</field>
+                                    <next>
+                                      <block type="sleepnew" id="S`=U03^cX|wB?TK5i]$n">
+                                        <value name="sleep">
+                                          <shadow type="textinline" id="qEgbHX1tMvs*,qVPdvp3">
+                                            <field name="text">0.05</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="for" id="(fadO~fCn{K+}mh2!qp-">
+                                <value name="letter">
+                                  <shadow type="textinline" id="]I_zRz15,u:k~;U!hdhL">
+                                    <field name="text">b</field>
+                                  </shadow>
+                                </value>
+                                <value name="no">
+                                  <shadow type="textinline" id="6l7CPPt2#~lVlW6U9-dx">
+                                    <field name="text">10</field>
+                                  </shadow>
+                                </value>
+                                <statement name="DO">
+                                  <block type="neovarnew" id="?a6^VuPp=}$Z_NqE}=N0">
+                                    <field name="NAME" id="5[.[kw:dTKk*,}$TCIKa" variabletype="">np</field>
+                                    <value name="text">
+                                      <shadow type="textinline" id="zR^!qw5`IJ}=}$-l%(dg">
+                                        <field name="text">b</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="text1">
+                                      <shadow type="textinline" id="D#aO|lhG2}2floo@o~xm">
+                                        <field name="text">0, 0, 255</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="neoshow" id="bP5j3jK/*+B`=z[(dJ3P">
+                                        <field name="NAME" id="5[.[kw:dTKk*,}$TCIKa" variabletype="">np</field>
+                                        <next>
+                                          <block type="sleepnew" id="Pa?gCT%6yd`Sx]+R)}[R">
+                                            <value name="sleep">
+                                              <shadow type="textinline" id="_KoQW,YNsVjKS?g*.0P/">
+                                                <field name="text">0.05</field>
+                                              </shadow>
+                                            </value>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
